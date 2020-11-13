@@ -1,0 +1,8 @@
+button {
+    /* background-color: green; */
+}
+
+button.playing {
+    background-color: dimgray;
+}
+

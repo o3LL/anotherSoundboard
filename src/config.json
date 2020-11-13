@@ -1,0 +1,70 @@
+{
+    "SERVER_URL": "",
+    "DEFAULT_CONFIG": {
+        "default": "mistermv",
+        "sounds": {
+            "mistermv": [
+                {
+                    "id": "id8becb50b0",
+                    "file": "mistermv/mv-01.mp3",
+                    "name": "Allo"
+                },
+                {
+                    "id": "id8becb50b1",
+                    "file": "mistermv/mv-02.mp3",
+                    "name": "Yatilkelkin"
+                },
+                {
+                    "id": "id8becb50b2",
+                    "file": "mistermv/mv-03.mp3",
+                    "name": "Skuur!"
+                },
+                {
+                    "id": "id8becb502b3",
+                    "file": "mistermv/mv-04.mp3",
+                    "name": "Oskuuuur"
+                },
+                {
+                    "id": "id8becb50b4",
+                    "file": "mistermv/mv-05.mp3",
+                    "name": "Arretez oskur!"
+                },
+                {
+                    "id": "id8becb50b5",
+                    "file": "mistermv/mv-cotorep.mp3",
+                    "name": "Cotorep!"
+                },
+                {
+                    "id": "id8becb50b6",
+                    "file": "mistermv/mv-taisezvous.mp3",
+                    "name": "Taisez vous"
+                },
+                {
+                    "id": "id8becb50b7",
+                    "file": "mistermv/mv_chut_chut_pas_de_marque.mp3",
+                    "name": "Chut chut"
+                },
+                {
+                    "id": "id8becb50b8",
+                    "file": "mistermv/mv_putain_jle_deteste.mp3",
+                    "name": "J'le d\u00e9teste!"
+                },
+                {
+                    "id": "id8becb50b9",
+                    "file": "mistermv/mv_ta_gueule.mp3",
+                    "name": "Ta gueule"
+                },
+                {
+                    "id": "id8becb50b10",
+                    "file": "mistermv/zrt_et_bam.mp3",
+                    "name": "ET BAM"
+                },
+                {
+                    "id": "id8becb50b11",
+                    "file": "mistermv/zrt_mv_terracid.mp3",
+                    "name": "TERRACID!"
+                }
+            ]
+        }
+    }
+}
