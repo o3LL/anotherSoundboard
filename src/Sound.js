@@ -1,7 +1,6 @@
 import React from 'react';
 import './Sound.css';
 import Button from 'react-bootstrap/Button';
-import { connect } from "react-redux";
 
 class Sound extends React.Component {
     constructor(props) {
@@ -11,7 +10,6 @@ class Sound extends React.Component {
         this.state = {
             playing: false,
             played: false,
-            server: '',
         };
 
         this.audioRef = React.createRef();
@@ -24,9 +22,6 @@ class Sound extends React.Component {
 
     handleClick() {
         this.audioRef.current.play();
-        // Emit sound to our parent element
-        // May be usefull if we are in websocket mode
-        this.props.emitSound.call();
     }
 
     handleOnPlay() {
@@ -48,9 +43,11 @@ class Sound extends React.Component {
 
     render() {
         return <Button
+                className={'mr-1 shadow-lg'}
                 ref={this.props.soundRef}
                 disabled={this.state.playing}
                 onClick={this.handleClick}
+                variant="green"
             >
             {this.props.name}
             <audio
@@ -65,10 +62,4 @@ class Sound extends React.Component {
     }
 }
 
-const mapStateToProps = state => {
-    return state.config || {
-        server: ''
-    };
-};
-
-export default connect(mapStateToProps)(Sound);
+export default Sound;

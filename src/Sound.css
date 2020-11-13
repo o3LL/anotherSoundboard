@@ -1,8 +1,15 @@
-button {
-    /* background-color: green; */
+.btn-green {
+    background-color: #4a9433;
+    color: white;
+    transition: all 0.5s ease-out;
 }
 
-button.playing {
-    background-color: dimgray;
+.btn-green:disabled {
+    color: white !important;
+    background-color: #318a17 !important;
 }
 
+.btn-green:hover {
+    color: white;
+    background-color: #57af3c;
+}
